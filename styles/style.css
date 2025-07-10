@@ -1,0 +1,118 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 70px;
+    padding: 30px 50px;
+}
+.nav-title{
+    font-size: 34px;
+    font-weight: 600;
+    font-family: ;
+    color: rgba(78, 71, 255, 1);
+}
+.blue-color{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#4E47FF ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.banner{
+text-align: center;
+align-items: center;
+justify-content: center;
+width: 905px;
+height: 237px;
+gap: 37px;
+padding: 0px 500px 200px 500px;
+
+}
+.banner-header{
+    font-size: 65px;
+    font-weight: 600;
+}
+header{
+    background-image: url("../images/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a :hover{
+    background-color: rgb(61, 64, 65);
+}
+/*1st part done!*/
+
+.second-part{
+display: flex;
+justify-content: space-around;
+padding: 116px 160px;
+
+}
+.second-part-content{
+    gap: 23px;
+}
+.second-part-title{
+    font-size: 42px;
+    font-weight: 600;
+    width: 517px;
+    height: 49px;
+}
+.second-part-para{
+    font-size: 24px;
+    font-weight: 200;
+    width: 517px;
+    height: 60px;
+}
+.wc-mini{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+/*second-part-end*/
+
+.third-part{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 116px 140px;
+    padding: 50px 140px;
+    
+}
+.third-part-header{
+    text-align: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 600;
+    height: 45px;
+    width: 856px;
+    padding: 50px 140px 40px 200px;
+}
+.third-part-content{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+.third-part-items{
+    padding: 0%;
+}
+.third-part-items-header{
+    color:rgba(78, 71, 255, 1);
+    font-size: 80px;
+    font-weight: 600;
+    height: 97px;
+    width: 162px;
+}
+.third-part-items-para{
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
