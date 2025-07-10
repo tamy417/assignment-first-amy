@@ -113,6 +113,59 @@ text-align: center;
 .third-part-items-para{
     font-size: 20px;
     font-weight: 200;
-    
+}
+
+/*third-part-end*/
+
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.reviews{
+margin: 137px 380px;
+padding: 99px 0px;
+
+}
+.reviews-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    height: 49px;
+    width: 1140px;
+}
+.review{
+    box-shadow: 0px 6px 50px 10px #F2EDED;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.rv-header{
+    font-size: 24px;
+    font-weight: 600;
+    height: 29px;
+    width: 221px;
+}
+.rv-para{
+font-size: 20px;
+font-weight: 100;
+height: 44px;
+width: 318px;
+}
+.avatar{
+    display: flex;
+}
+.name-date{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+footer{
+
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title{
+    font-size: 97px;
+    font-weight: bold;
 }
 
