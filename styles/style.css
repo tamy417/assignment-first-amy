@@ -167,5 +167,14 @@ footer{
 .footer-title{
     font-size: 97px;
     font-weight: bold;
+    height: 232px;
+    width: 528px;
 }
-
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 70px; 
+  width: 497px; 
+  background-color: #FFFFFF;
+  display: block;
+  border-radius: 10px;
+  border-color: transparent;
+}
