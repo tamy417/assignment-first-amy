@@ -160,21 +160,46 @@ width: 318px;
     gap: 0px;
 }
 footer{
-
+padding: 200px 200px;
+margin: 92px 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
 }
 .footer-title{
     font-size: 97px;
     font-weight: bold;
     height: 232px;
     width: 528px;
+    
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
   height: 70px; 
   width: 497px; 
-  background-color: #FFFFFF;
+  background-color: #f2eded;
   display: block;
   border-radius: 10px;
   border-color: transparent;
+  margin: 10px 0;
+}
+form ::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.last-btn{
+    height: 62px;
+    width: 497px;
+    padding: 10px 101px;
+    margin:10px 0;
+
+
+}
+.last-txt{
+    width: 497px;
+    height: 135px;
+    gap: 10px;
+    padding: 20px 32px;
+}
+form{
+    gap: 20px;
 }
