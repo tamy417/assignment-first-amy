@@ -1,4 +1,4 @@
-.raleway-normal {
+.raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -159,7 +159,7 @@ width: 318px;
     flex-direction: column;
     gap: 0px;
 }
-footer{
+.first-footer{
 padding: 200px 200px;
 margin: 92px 150px;
     display: flex;
@@ -202,4 +202,45 @@ form ::placeholder{
 }
 form{
     gap: 20px;
+}
+.last-footer{
+    background-color: rgb(245, 248,255);
+    text-align: center;
+    padding: 103px 450px;
+    margin:
+}
+.last-footer-header{
+    font-size: 100px;
+    font-weight: 800;
+    color: rgba(78, 71, 255, 1);
+    height: 121px;
+    width: 291px;
+    padding: 0px 120px;
+    margin: 30px 200px;
+}
+.last-footer-para{
+    height: 48px;
+    width: 531px;
+    color: #45444f;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px 0;
+    margin: 30px 200px;
+}
+.last-tab{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color: #46464b;
+}
+.last-tab :hover{
+    color: hsl(219, 100%, 53%);
 }
