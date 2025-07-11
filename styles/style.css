@@ -1,8 +1,13 @@
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  
+}
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 nav{
     display: flex;
@@ -13,7 +18,7 @@ nav{
 }
 .nav-title{
     font-size: 34px;
-    font-weight: 600;
+    font-weight: 800;
     font-family: ;
     color: rgba(78, 71, 255, 1);
 }
@@ -113,6 +118,7 @@ text-align: center;
 .third-part-items-para{
     font-size: 20px;
     font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /*third-part-end*/
@@ -153,6 +159,7 @@ width: 318px;
 }
 .avatar{
     display: flex;
+    gap: 18px;
 }
 .name-date{
     display: flex;
